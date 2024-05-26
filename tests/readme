@@ -1,0 +1,16 @@
+
+
+Tests for the face detection functionality.
+
+This module contains unit tests for the face detection functionality implemented in the `face_detection` module.
+
+
+This module contains unit tests for the face detection video functionality.
+
+The tests cover the following scenarios:
+- Successful video capture and face detection
+- Failure to capture video
+- Quitting the video capture by pressing the 'q' key
+
+The tests use the `unittest.mock` module to patch the necessary OpenCV functions and simulate the expected behavior.
+
